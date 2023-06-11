@@ -99,6 +99,9 @@ buttons = [
         InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", callback_data="source_"),
     ],
+    [
+        InlineKeyboardButton(text="🥀 ᴍᴜsɪᴄ 🥀", callback_data='settings_back_helper')
+    ]
 ]
 
 HELP_STRINGS = f"""
